@@ -1,5 +1,5 @@
 var sys = require('sys');
-var flashsocket = require('flashsocket');
+var flashsocket = require('flashsocket-js');
 
 ServersManagerMessageBuilder = module.exports = function(target)
 {

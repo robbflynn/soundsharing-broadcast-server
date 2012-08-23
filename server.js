@@ -6,7 +6,7 @@ var plugins = require('./src/config/plugins');
 var net = require("net");
 var sys = require('sys');
 
-var flashsocket = require('flashsocket');
+var flashsocket = require('flashsocket-js');
 
 sys.log("flashsocket: " + flashsocket);
 

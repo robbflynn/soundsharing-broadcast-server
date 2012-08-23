@@ -1,5 +1,5 @@
 var sys = require('sys');
-var ClientEventMessageBuilder = require('flashsocket').ClientEventMessageBuilder;
+var ClientEventMessageBuilder = require('flashsocket-js').ClientEventMessageBuilder;
 
 SecureClientEventMessageBuilder = module.exports = function(target)
 {

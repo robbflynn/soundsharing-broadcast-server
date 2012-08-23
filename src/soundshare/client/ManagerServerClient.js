@@ -1,6 +1,6 @@
 var sys = require('sys');
 var http = require('http');
-var flashsocket = require('flashsocket');
+var flashsocket = require('flashsocket-js');
 
 var ClientEventDispatcher = flashsocket.ClientEventDispatcher;
 var ObjectRegister = flashsocket.ObjectRegister;
