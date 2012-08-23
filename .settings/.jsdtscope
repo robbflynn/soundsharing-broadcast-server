@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="node_modules/express/node_modules/qs/test/|node_modules/mongodb/deps/step/test/|node_modules/mongodm/test/|node_modules/express/node_modules/mime/|src/soundshare/data/client/|node_modules/mongodb/test/auxilliary/|src/soundshare/data/|node_modules/mongodb/test/tools/|src/soundshare/managers/servers/|node_modules/express/lib/|node_modules/mongodb/deps/nodeunit/share/|node_modules/express/node_modules/qs/support/should/lib/|node_modules/mongodb/deps/nodeunit/lib/reporters/|src/soundshare/builders/broadcasts/|src/config/|node_modules/mongodb/lib/mongodb/bson/|src/soundshare/managers/broadcasts/|node_modules/mongodb/deps/nodeunit/lib/|node_modules/mongodm/examples/|node_modules/mongodb/deps/nodeunit/test/|src/soundshare/builders/managers/|node_modules/mongodb/deps/nodeunit/examples/browser/|node_modules/mongodb/deps/nodeunit/|src/soundshare/managers/stations/|src/soundshare/broadcasts/|node_modules/express/node_modules/qs/|node_modules/mongodm/|node_modules/mongodb/external-libs/bson/|node_modules/flashsocket/lib/managers/routing/|src/soundshare/managers/playlists/|node_modules/express/node_modules/connect/|src/soundshare/db/base/|src/soundshare/broadcasters/|src/soundshare/|node_modules/mongodm/lib/|node_modules/express/node_modules/qs/support/expresso/lib/|node_modules/mongodb/test/bson/|src/utils/expressjs/parsers/|node_modules/mongodb/lib/mongodb/responses/|src/soundshare/builders/messages/actions/|node_modules/flashsocket/lib/utils/register/|src/soundshare/managers/groups/|node_modules/mongodb/deps/step/lib/|node_modules/flashsocket/lib/managers/actions/|node_modules/mongodb/test/|src/soundshare/builders/messages/broadcasts/|node_modules/express/node_modules/qs/support/expresso/test/serial/|node_modules/mongodb/lib/mongodb/connections/|node_modules/mongodb/deps/nodeunit/deps/|src/soundshare/db/|src/soundshare/managers/accounts/|node_modules/express/lib/router/|node_modules/flashsocket/lib/managers/events/|node_modules/flashsocket/lib/server/message/|node_modules/express/node_modules/qs/support/expresso/test/|node_modules/express/node_modules/qs/support/should/|node_modules/mongodb/examples/|src/soundshare/managers/members/|node_modules/mongodb/lib/mongodb/gridfs/|node_modules/flashsocket/lib/units/|src/soundshare/data/account/|src/utils/|node_modules/mongodm/lib/utils/|node_modules/mongodm/test/benchmark/orm/|node_modules/flashsocket/lib/server/client/|src/soundshare/managers/channels/|node_modules/mongodb/benchmark/|node_modules/express/node_modules/connect/lib/middleware/session/|node_modules/flashsocket/lib/client/flash/|src/utils/mongodb/|node_modules/mongodb/lib/mongodb/commands/|node_modules/flashsocket/lib/builders/message/events/|node_modules/mongodb/deps/nodeunit/test/fixtures/dir/|node_modules/mongodb/deps/nodeunit/test/fixtures/|node_modules/mongodb/lib/mongodb/goog/math/|src/soundshare/managers/notifications/|node_modules/mongodb/tools/|node_modules/mongodb/lib/mongodb/|node_modules/express/node_modules/connect/lib/|node_modules/flashsocket/lib/builders/message/actions/|node_modules/express/node_modules/qs/support/should/test/|node_modules/express/node_modules/connect/lib/middleware/|node_modules/flashsocket/lib/server/|node_modules/express/node_modules/qs/support/should/examples/|node_modules/flashsocket/|node_modules/mongodm/test/benchmark/|node_modules/express/|node_modules/express/lib/view/|node_modules/mongodb/|node_modules/express/node_modules/qs/lib/|node_modules/mongodb/test/replicaset/|node_modules/mongodb/test/gridstore/|node_modules/mongodb/lib/mongodb/crypto/" kind="src" path=""/>
+	<classpathentry excluding="node_modules/qs/test/|node_modules/mime/|lib/|node_modules/qs/support/should/lib/|node_modules/qs/|node_modules/connect/|node_modules/qs/support/expresso/lib/|node_modules/qs/support/expresso/test/serial/|lib/router/|node_modules/qs/support/expresso/test/|node_modules/qs/support/should/|node_modules/connect/lib/middleware/session/|node_modules/connect/lib/|node_modules/qs/support/should/test/|node_modules/connect/lib/middleware/|node_modules/qs/support/should/examples/|lib/view/|node_modules/qs/lib/" kind="src" path="node_modules/express"/>
+	<classpathentry excluding="router/|view/" kind="src" path="node_modules/express/lib"/>
+	<classpathentry kind="src" path="node_modules/express/lib/router"/>
+	<classpathentry kind="src" path="node_modules/express/lib/view"/>
+	<classpathentry excluding="lib/middleware/session/|lib/|lib/middleware/" kind="src" path="node_modules/express/node_modules/connect"/>
+	<classpathentry excluding="middleware/session/|middleware/" kind="src" path="node_modules/express/node_modules/connect/lib"/>
+	<classpathentry excluding="session/" kind="src" path="node_modules/express/node_modules/connect/lib/middleware"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/connect/lib/middleware/session"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/mime"/>
+	<classpathentry excluding="test/|support/should/lib/|support/expresso/lib/|support/expresso/test/serial/|support/expresso/test/|support/should/|support/should/test/|support/should/examples/|lib/" kind="src" path="node_modules/express/node_modules/qs"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/lib"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/support/expresso/lib"/>
+	<classpathentry excluding="serial/" kind="src" path="node_modules/express/node_modules/qs/support/expresso/test"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/support/expresso/test/serial"/>
+	<classpathentry excluding="lib/|test/|examples/" kind="src" path="node_modules/express/node_modules/qs/support/should"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/support/should/examples"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/support/should/lib"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/support/should/test"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/test"/>
+	<classpathentry excluding="lib/managers/routing/|lib/utils/register/|lib/managers/actions/|lib/managers/events/|lib/server/message/|lib/units/|lib/server/client/|lib/client/flash/|lib/builders/message/events/|lib/builders/message/actions/|lib/server/" kind="src" path="node_modules/flashsocket"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/builders/message/actions"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/builders/message/events"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/client/flash"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/managers/actions"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/managers/events"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/managers/routing"/>
+	<classpathentry excluding="message/|client/" kind="src" path="node_modules/flashsocket/lib/server"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/server/client"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/server/message"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/units"/>
+	<classpathentry kind="src" path="node_modules/flashsocket/lib/utils/register"/>
+	<classpathentry excluding="deps/step/test/|test/auxilliary/|test/tools/|deps/nodeunit/share/|deps/nodeunit/lib/reporters/|lib/mongodb/bson/|deps/nodeunit/lib/|deps/nodeunit/test/|deps/nodeunit/examples/browser/|deps/nodeunit/|external-libs/bson/|test/bson/|lib/mongodb/responses/|deps/step/lib/|test/|lib/mongodb/connections/|deps/nodeunit/deps/|examples/|lib/mongodb/gridfs/|benchmark/|lib/mongodb/commands/|deps/nodeunit/test/fixtures/dir/|deps/nodeunit/test/fixtures/|lib/mongodb/goog/math/|tools/|lib/mongodb/|test/replicaset/|test/gridstore/|lib/mongodb/crypto/" kind="src" path="node_modules/mongodb"/>
+	<classpathentry kind="src" path="node_modules/mongodb/benchmark"/>
+	<classpathentry excluding="share/|lib/reporters/|lib/|test/|examples/browser/|deps/|test/fixtures/dir/|test/fixtures/" kind="src" path="node_modules/mongodb/deps/nodeunit"/>
+	<classpathentry kind="src" path="node_modules/mongodb/deps/nodeunit/deps"/>
+	<classpathentry kind="src" path="node_modules/mongodb/deps/nodeunit/examples/browser"/>
+	<classpathentry excluding="reporters/" kind="src" path="node_modules/mongodb/deps/nodeunit/lib"/>
+	<classpathentry kind="src" path="node_modules/mongodb/deps/nodeunit/lib/reporters"/>
+	<classpathentry kind="src" path="node_modules/mongodb/deps/nodeunit/share"/>
+	<classpathentry excluding="fixtures/dir/|fixtures/" kind="src" path="node_modules/mongodb/deps/nodeunit/test"/>
+	<classpathentry excluding="dir/" kind="src" path="node_modules/mongodb/deps/nodeunit/test/fixtures"/>
+	<classpathentry kind="src" path="node_modules/mongodb/deps/nodeunit/test/fixtures/dir"/>
+	<classpathentry kind="src" path="node_modules/mongodb/deps/step/lib"/>
+	<classpathentry kind="src" path="node_modules/mongodb/deps/step/test"/>
+	<classpathentry kind="src" path="node_modules/mongodb/examples"/>
+	<classpathentry kind="src" path="node_modules/mongodb/external-libs/bson"/>
+	<classpathentry excluding="bson/|responses/|connections/|gridfs/|commands/|goog/math/|crypto/" kind="src" path="node_modules/mongodb/lib/mongodb"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/mongodb/bson"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/mongodb/commands"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/mongodb/connections"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/mongodb/crypto"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/mongodb/goog/math"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/mongodb/gridfs"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/mongodb/responses"/>
+	<classpathentry excluding="auxilliary/|tools/|bson/|replicaset/|gridstore/" kind="src" path="node_modules/mongodb/test"/>
+	<classpathentry kind="src" path="node_modules/mongodb/test/auxilliary"/>
+	<classpathentry kind="src" path="node_modules/mongodb/test/bson"/>
+	<classpathentry kind="src" path="node_modules/mongodb/test/gridstore"/>
+	<classpathentry kind="src" path="node_modules/mongodb/test/replicaset"/>
+	<classpathentry kind="src" path="node_modules/mongodb/test/tools"/>
+	<classpathentry kind="src" path="node_modules/mongodb/tools"/>
+	<classpathentry excluding="test/|examples/|lib/|lib/utils/|test/benchmark/orm/|test/benchmark/" kind="src" path="node_modules/mongodm"/>
+	<classpathentry kind="src" path="node_modules/mongodm/examples"/>
+	<classpathentry excluding="utils/" kind="src" path="node_modules/mongodm/lib"/>
+	<classpathentry kind="src" path="node_modules/mongodm/lib/utils"/>
+	<classpathentry excluding="benchmark/orm/|benchmark/" kind="src" path="node_modules/mongodm/test"/>
+	<classpathentry excluding="orm/" kind="src" path="node_modules/mongodm/test/benchmark"/>
+	<classpathentry kind="src" path="node_modules/mongodm/test/benchmark/orm"/>
+	<classpathentry kind="src" path="src/config"/>
+	<classpathentry excluding="data/client/|data/|managers/servers/|builders/broadcasts/|managers/broadcasts/|builders/managers/|managers/stations/|broadcasts/|managers/playlists/|db/base/|broadcasters/|builders/messages/actions/|managers/groups/|builders/messages/broadcasts/|db/|managers/accounts/|managers/members/|data/account/|managers/channels/|managers/notifications/" kind="src" path="src/soundshare"/>
+	<classpathentry kind="src" path="src/soundshare/broadcasters"/>
+	<classpathentry kind="src" path="src/soundshare/broadcasts"/>
+	<classpathentry kind="src" path="src/soundshare/builders/broadcasts"/>
+	<classpathentry kind="src" path="src/soundshare/builders/managers"/>
+	<classpathentry kind="src" path="src/soundshare/builders/messages/actions"/>
+	<classpathentry kind="src" path="src/soundshare/builders/messages/broadcasts"/>
+	<classpathentry excluding="client/|account/" kind="src" path="src/soundshare/data"/>
+	<classpathentry kind="src" path="src/soundshare/data/account"/>
+	<classpathentry kind="src" path="src/soundshare/data/client"/>
+	<classpathentry excluding="base/" kind="src" path="src/soundshare/db"/>
+	<classpathentry kind="src" path="src/soundshare/db/base"/>
+	<classpathentry kind="src" path="src/soundshare/managers/accounts"/>
+	<classpathentry kind="src" path="src/soundshare/managers/broadcasts"/>
+	<classpathentry kind="src" path="src/soundshare/managers/channels"/>
+	<classpathentry kind="src" path="src/soundshare/managers/groups"/>
+	<classpathentry kind="src" path="src/soundshare/managers/members"/>
+	<classpathentry kind="src" path="src/soundshare/managers/notifications"/>
+	<classpathentry kind="src" path="src/soundshare/managers/playlists"/>
+	<classpathentry kind="src" path="src/soundshare/managers/servers"/>
+	<classpathentry kind="src" path="src/soundshare/managers/stations"/>
+	<classpathentry excluding="expressjs/parsers/|mongodb/" kind="src" path="src/utils"/>
+	<classpathentry kind="src" path="src/utils/expressjs/parsers"/>
+	<classpathentry kind="src" path="src/utils/mongodb"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
