@@ -11,6 +11,6 @@ module.exports = [
     	 type: 1,
     	 version: "0.1",
     	 name: "Standard radio plugin",
-    	 namespace: "sss_standardradioplugin"
+    	 namespace: "soundsharing-broadcastserver-standardradioplugin-js"
      }
 ];

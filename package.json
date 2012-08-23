@@ -1,5 +1,5 @@
 {
-    "name": "sound-sharing-server"
+    "name": "soundsharing-broadcast-server"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
