@@ -92,7 +92,8 @@ ManagerServerClient.prototype.prepare = function(serverId, secureId)
 			{
 				var obj = JSON.parse(data);
 				
-				sys.log("1. ---- authorization_complete ----!! " + data + " : " + obj.error);
+				//sys.log("1. ---- authorization_complete ----!! " + data + " : " + obj.error);
+				sys.log("1. ---- authorization_complete ----!!");
 				
 				if (obj.error)
 				{
