@@ -10,18 +10,18 @@ PluginRequest.prototype = new events.EventEmitter();
 PluginRequest.prototype.process = function() {
 	var _self = this;
 	
-	var plugin = this.pluginBuilder.build(this.pluginContainer);
+	this.plugin = this.pluginBuilder.build(this.pluginContainer);
 	
-	plugin.on("ready", function(data) { 
-		plugin.removeAllListeners();
+	this.plugin.on("ready", function(data) { 
+		_self.plugin.removeAllListeners();
 		_self.emit("ready", data); 
 	});
-	plugin.on("error", function(error, code) { 
-		plugin.removeAllListeners();
+	this.plugin.on("error", function(error, code) { 
+		_self.plugin.removeAllListeners();
 		_self.emit("error", error, code); 
 	});
 	
-	plugin.prepare(this.data, this.client);
+	this.plugin.prepare(this.data, this.client);
 };
 
 PluginRequest.prototype.clear = function() {
@@ -29,6 +29,8 @@ PluginRequest.prototype.clear = function() {
 	this.type = null;
 	this.data = null;
 	this.client = null;
+	
+	this.plugin = null;
 	this.pluginBuilder = null;
 	this.pluginContainer = null;
 };

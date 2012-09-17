@@ -10,6 +10,7 @@ PluginsManager = module.exports = function(plugins)
 	ServerEventDispatcher.call(this);
 	
 	this.plugins = new Array();
+	this.activePlugins = new Array();
 	
 	var plugin;
 	var _self = this;
@@ -28,6 +29,10 @@ PluginsManager = module.exports = function(plugins)
 	
 	this.addAction("PLUGIN_REQUEST", function(client, message) {
 		_self.executePluginRequest(client, message);
+	});
+	
+	this.addAction("GET_PLUGIN_ACTIVITY", function(client, message) {
+		_self.executeGetPluginActivity(client, message);
 	});
 };
 
@@ -65,6 +70,19 @@ PluginsManager.prototype.executePluginRequest = function(client, message)
 				},
 				receiver: sender
 			});
+			
+			var plugin = request.plugin;
+			
+			_self.activePlugins.push(plugin);
+			
+			plugin.on("destroy", function() {
+				var index = _self.activePlugins.indexOf(plugin);
+				_self.activePlugins.splice(index, 1);
+				
+				sys.log("-PluginsManager[destroy]: " + plugin + " : " + index);
+			});
+			
+			request.clear();
 		});
 		request.on("error", function(error, code) {
 			request.removeAllListeners();
@@ -78,8 +96,47 @@ PluginsManager.prototype.executePluginRequest = function(client, message)
 				},
 				receiver: receiver
 			});
+			
+			request.clear();
 		});
 		
 		request.process();
 	}
+};
+
+PluginsManager.prototype.executeGetPluginActivity = function(client, message)
+{
+	sys.log("1.PluginsManager[executeGetPluginActivity]: ");
+	
+	var sender = this.getMessageSender(message);
+	var matchData = message.getJSONBody();
+	var data;
+	
+	for (var i = 0;i < this.activePlugins.length;i ++)
+	{
+		data = this.activePlugins[i].match(matchData);
+		
+		if (data)
+			break;
+	}
+	
+	if (data)
+		this.dispatchSocketEvent({
+			event: {
+				type: "ACTIVE",
+				data: data
+			},
+			receiver: sender
+		});
+	else
+		this.dispatchSocketEvent({
+			event: {
+				type: "NOT_ACTIVE",
+				data: {
+					error: "Plugin is not active.",
+					code: 100
+				}
+			},
+			receiver: sender
+		});
 };
